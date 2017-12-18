@@ -1,0 +1,40 @@
+{
+  "name": "xrb-prettify",
+  "version": "1.0.0",
+  "description": "Format RaiBlocks raw amounts (xrb) to be more human-readable. Adds decimal point and commas where necessary.",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "npm run build:dist",
+    "build:dist": "npm run clean && babel src --out-dir dist",
+    "test": "tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kilkelly/xrb-prettify.git"
+  },
+  "keywords": [
+    "raiblocks",
+    "xrb",
+    "rai"
+  ],
+  "author": "Frank Kilkelly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kilkelly/xrb-prettify/issues"
+  },
+  "homepage": "https://github.com/kilkelly/xrb-prettify#readme",
+  "dependencies": {
+    "bignumber.js": "^4.1.0",
+    "numeral": "^2.0.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-minify": "^0.2.0",
+    "rimraf": "^2.6.2",
+    "tape": "^4.8.0"
+  }
+}

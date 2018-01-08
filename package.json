@@ -24,10 +24,7 @@
     "url": "https://github.com/kilkelly/xrb-prettify/issues"
   },
   "homepage": "https://github.com/kilkelly/xrb-prettify#readme",
-  "dependencies": {
-    "bignumber.js": "^4.1.0",
-    "numeral": "^2.0.6"
-  },
+  "dependencies": {},
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",

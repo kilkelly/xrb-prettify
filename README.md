@@ -1,5 +1,7 @@
 # xrb-prettify
 
+**DEPRECATED - Please use [nano-prettify](https://github.com/kilkelly/nano-prettify) instead. Due to RaiBlocks rebranding to Nano this library is not longer supported.** 
+
 Prettify / format RaiBlocks (XRB) Raw amounts to be more human-readable. Format amounts in any RaiBlocks compatible unit e.g. uxrb, Gxrb etc.... Adds decimal point and commas where necessary. Raw amounts are commonly returned when interacting with a RaiBlocks node (rai_node)
 
 e.g. "2100176034320859259343606608761791" becomes "2,100.176034"
